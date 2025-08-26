@@ -5,7 +5,7 @@ const translations = {
         degreeText: "Estudante de Engenharia de Software",
         careerText: "Desenvolvedora Front-End",
         aboutTitle: "Sobre Mim",
-        aboutText: "Olá! Meu nome é Maria Fernanda Caravieri, sou estudante de Engenharia de Software na UBM, com uma paixão por desenvolvimento Front End. Adoro aprender coisas novas e deixar tudo mais bonito e funcional. Atualmente busco oportunidades onde eu possa crescer como dev, aprender cada dia mais e criar coisas incríveis.",
+        aboutText: "Olá! Sou Maria Fernanda Caravieri, estudante de Engenharia de Software na UBM, com foco em desenvolvimento Front-End. Tenho interesse em soluções tecnológicas que integrem design e funcionalidade, buscando constante aprimoramento técnico. Procuro oportunidades para contribuir com projetos desafiadores e inovadores, agregando valor à equipe e ao produto final.",
         formationTitle: "Formação Acadêmica",
         degree2Text: "Engenharia de Software",
         collegeText: "UBM",
@@ -30,7 +30,7 @@ const translations = {
         ptTitle: "Português",
         enTitle: "Inglês",
         ptProficiency: "Proficiência: Nativa",
-        enProficiency: "Proficiência: B1",
+        enProficiency: "Proficiência: C1 Avançado",
         enCertificate: "Clique para exibir certificado",
 
     },
@@ -39,7 +39,7 @@ const translations = {
         degreeText: "Software Engineering Student",
         careerText: "Front-End Developer",
         aboutTitle: "About Me",
-        aboutText: "Hello! My name is Maria Fernanda Caravieri, I am a Software Engineering student at UBM with a passion for Front-End development. I love learning new things and making everything more beautiful and functional. I am currently seeking opportunities where I can grow as a developer, learn more every day, and create amazing things.",
+        aboutText: "Hello! I am Maria Fernanda Caravieri, a Software Engineering student at UBM, focused on Front-End development. I am interested in technological solutions that integrate design and functionality, with a continuous pursuit of technical improvement. I am seeking opportunities to contribute to challenging and innovative projects, adding value to both the team and the final product.",
         formationTitle: "Academic Background",
         degree2Text: "Software Engineering",
         collegeText: "UBM",
@@ -64,7 +64,7 @@ const translations = {
         ptTitle: "Portuguese",
         enTitle: "English",
         ptProficiency: "Proficiency: Native",
-        enProficiency: "Proficiency: B1",
+        enProficiency: "Proficiency: C1 Advanced",
         enCertificate: "Click to view certificate",
     }
 };

@@ -212,11 +212,11 @@ section {
 }
 
 @media (max-width: 700px) {
-    .contact-cards {
+    .contact-cards, .language-card {
         flex-wrap: wrap;
         justify-content: center;
     }
-    .contact-cards a {
+    .contact-cards a, .language-card a {
         width: 100%;
         max-width: 300px;
     }
@@ -335,3 +335,55 @@ button:active {
     height: 24px;
 }
 
+.portifolio-card, .certificates-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    background: #ece3c6;
+    padding: 20px;
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+    text-align: left;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease;
+    margin: 20px;
+    overflow: hidden;
+}
+
+.portifolio-card img, .certificates-card img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.portifolio-card a, .certificates-card a {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    height: 100%;
+}
+
+.portifolio-card:hover, .certificates-card:hover {
+    transform: scale(1.05);
+}
+
+.portifolio, .certifications {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+@media (max-width: 700px) {
+    .portifolio-card, .certificates-card {
+        width: 90%;
+        height: auto;
+    }
+    .portifolio-card img, .certificates-card img {
+        max-height: 300px;
+    }
+}
